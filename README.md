@@ -32,7 +32,11 @@ https://github.com/user-attachments/assets/e91116a3-6b19-4dc9-b183-3e3a42cd54ff
 6. Copy and paste the contents of `Truncate_text_workflow_action.js` into the code editor
 7. Add "truncatedEmailBody" as an output field
 
+<img width="458" alt="image" src="https://github.com/user-attachments/assets/5f4de627-b190-450d-8819-fa1aca7eebd4" />
 
+8. Use the "Action Outputs" dataset and add the "truncateEmailBody" into the task body.
+
+<img width="965" alt="image" src="https://github.com/user-attachments/assets/a2ee4815-b7e3-4b02-ba51-16fe3dfde7d9" />
 
 
 ## Usage
