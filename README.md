@@ -38,11 +38,6 @@ https://github.com/user-attachments/assets/e91116a3-6b19-4dc9-b183-3e3a42cd54ff
 
 <img width="965" alt="image" src="https://github.com/user-attachments/assets/a2ee4815-b7e3-4b02-ba51-16fe3dfde7d9" />
 
-
-## Usage
-
-The workflow action will automatically truncate any email body that exceeds 31,999 characters. The truncated content will be available in the `truncatedEmailBody` output field.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
