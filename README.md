@@ -22,8 +22,8 @@ The problem then becomes HubSpot's character limits. Because emails tend to thre
 2. Create a new workflow or edit an existing one
 3. Set your enrollment to "Last Contacted" -> "is known"
 4. Add a custom code action
-       1. Select Node
-       2. Add in the Most Recent Logged Email dataset
+          1. Select Node
+          2. Add in the Most Recent Logged Email dataset
 
 https://github.com/user-attachments/assets/e91116a3-6b19-4dc9-b183-3e3a42cd54ff
 
