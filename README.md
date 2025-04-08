@@ -2,7 +2,11 @@
 
 A simple HubSpot workflow action that takes in a recently logged email, truncates the text, and saves it into a task or custom property. 
 
-A use case for this is syncing emails to multiple contacts in Salesforce. In the native SF integration, HubSpot will only sync the logged email to one of the sent to contacts. If we want it logged to all sent to records in Salesforce, you can create a task or property and send it over that way. 
+## Use Case
+
+### Syncing one email to multiple contacts in Salesforce
+
+In the native SF integration, HubSpot will only sync the logged email to one of the sent to contacts. If we want it logged to all sent to records in Salesforce, you can create a task or property and send it over that way. 
 
 The problem then becomes HubSpot character limits. Because emails tend to thread and become bloated with characters, creating a task or updating a property will error out. Thats where truncating of the body comes into play.
 
