@@ -1,4 +1,4 @@
-# HubSpot Email Truncation Workflow Action
+# HubSpot Email Body Truncation Workflow Action
 
 A simple HubSpot workflow action that takes in a recently logged email, truncates the text, and saves it into a task or custom property. 
 
@@ -8,7 +8,7 @@ A simple HubSpot workflow action that takes in a recently logged email, truncate
 
 In the native SF integration, HubSpot will only sync the logged email to one of the sent to contacts. If we want it logged to all sent to records in Salesforce, you can create a task or property and send it over that way. 
 
-The problem then becomes HubSpot character limits. Because emails tend to thread and become bloated with characters, creating a task or updating a property will error out. Thats where truncating of the body comes into play.
+The problem then becomes HubSpot's character limits. Because emails tend to thread and become bloated with characters, creating a task or updating a property will error out. Thats where truncating of the body comes into play.
 
 ## Features
 
@@ -20,9 +20,16 @@ The problem then becomes HubSpot character limits. Because emails tend to thread
 
 1. In your HubSpot account, navigate to Automation > Workflows
 2. Create a new workflow or edit an existing one
-3. Add a custom code action
-4. Copy and paste the contents of `Truncate_text_workflow_action.js` into the code editor
-5. Configure the workflow to trigger on email logging events
+3. Set your enrollment to "Last Contacted" -> "is known"
+4. Add a custom code action
+       1. Select Node
+       2. Add in the Most Recent Logged Email dataset
+
+https://github.com/user-attachments/assets/e91116a3-6b19-4dc9-b183-3e3a42cd54ff
+
+
+6. Copy and paste the contents of `Truncate_text_workflow_action.js` into the code editor
+7. Configure the workflow to trigger on email logging events
 
 <img width="1088" alt="image" src="https://github.com/user-attachments/assets/3517a1f3-dd61-410c-b1be-d9fe6da930f8" />
 
