@@ -24,6 +24,9 @@ The problem then becomes HubSpot character limits. Because emails tend to thread
 4. Copy and paste the contents of `Truncate_text_workflow_action.js` into the code editor
 5. Configure the workflow to trigger on email logging events
 
+<img width="1088" alt="image" src="https://github.com/user-attachments/assets/3517a1f3-dd61-410c-b1be-d9fe6da930f8" />
+
+
 ## Usage
 
 The workflow action will automatically truncate any email body that exceeds 31,999 characters. The truncated content will be available in the `truncatedEmailBody` output field.
