@@ -23,15 +23,16 @@ The problem then becomes HubSpot's character limits. Because emails tend to thre
 3. Set your enrollment to "Last Contacted" -> "is known"
 4. Add a custom code action
 5. Select Node
-          1. Add in the Most Recent Logged Email dataset
+6. Add in the Most Recent Logged Email dataset (video directions below)
 
 https://github.com/user-attachments/assets/e91116a3-6b19-4dc9-b183-3e3a42cd54ff
 
+<img width="1088" alt="image" src="https://github.com/user-attachments/assets/3517a1f3-dd61-410c-b1be-d9fe6da930f8" />
 
 6. Copy and paste the contents of `Truncate_text_workflow_action.js` into the code editor
-7. Configure the workflow to trigger on email logging events
+7. Add "truncatedEmailBody" as an output field
 
-<img width="1088" alt="image" src="https://github.com/user-attachments/assets/3517a1f3-dd61-410c-b1be-d9fe6da930f8" />
+
 
 
 ## Usage
